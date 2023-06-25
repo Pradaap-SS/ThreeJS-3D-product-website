@@ -1,11 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemod index"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,8 @@
     "mongoose": "^7.3.1",
     "nodemon": "^2.0.22",
     "openai": "^3.3.0"
+  },
+  "engines" : {
+    "node": ">=14.20.1"
   }
 }
